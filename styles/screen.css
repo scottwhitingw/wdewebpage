@@ -1,0 +1,123 @@
+/* ================= UNDO DEFAULT ================= */
+
+:link,:visited { text-decoration:none }
+ul,ol { list-style:none }
+h1,h2,h3,h4,h5,h6,pre,code { font-size:100%;font-weight: normal; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd,legend,input,select { margin:0; padding:0 }
+a img,:link img,:visited img, fieldset { border:0; }
+address { font-style:normal }
+table { border:none;padding:0;margin:0;border-collapse:collapse;border-spacing:0; }
+address,caption,cite,code,dfn,em,th,var { font-style:normal;font-weight:normal;text-align:left; }
+
+
+/* ================= BASIC ================= */
+
+body {
+	font-family: "Montserrat", sans-serif;
+	color: #000;
+	background: #aaa;
+	}
+
+#header {
+	margin: 40px auto 0 auto;
+	width: 962px;
+	border-top: 19px solid #000;
+	border-left: 19px solid #000;
+	border-right: 19px solid #000;
+	border-bottom: 19px solid #000;
+	background: #fff;
+	position: relative;
+	height: 120px;
+	}
+
+#logo {
+	width: 300px;
+	height: 65px;
+	position: absolute;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	top: 26px;
+	left: 30px;
+	background: transparent url(../images/logo.svg) no-repeat 0 0;
+	}
+
+#phone {
+	position: absolute;
+	color: #A81E22;
+	top: 60px;
+	right: 28px;
+	font-size: 30px;
+	font-weight: 700;
+	}
+
+#scott {
+	position: absolute;
+	top: 20px;
+	z-index: 30;
+	right: 28px;
+	width: 289px;
+	height: 42px;
+	background: transparent url(../images/scott.svg) no-repeat 0 0;
+	background-size: contain;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+#content {
+	margin: 0 auto;
+	width: 962px;
+	border-bottom: 19px solid #000;
+	border-left: 19px solid #000;
+	border-right: 19px solid #000;
+	background: #fff;
+	position: relative;
+	}
+
+#copy {
+	padding: 36px;
+	font-size: 1.1em;
+	color: #666;
+	line-height: 1.8em;
+	}
+
+#copy p {
+	margin: 0 400px 30px 0;
+	}
+
+#copy h2 {
+	color: #9D1C1F;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-bottom: 2px;
+	}
+
+#challenge {
+	width: 378px;
+	height: 0;
+	padding-top: 36px;
+	overflow: hidden;
+	background: transparent url(../images/challenge.gif) repeat 0 0;
+	margin: 40px 0 0 60px;
+	}
+
+#sidebar {
+	font-size: 1em;
+	color: #666;
+	line-height: 1.5em;
+	}
+
+#guy {
+	position: absolute;
+	top: 40px;
+	right: 26px;
+	width: 381px;
+	height: 450px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: transparent url(../images/dude.svg) no-repeat 0 0;
+	background-size: contain;
+	}
